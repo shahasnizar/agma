@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
 
 app.get('/test', (req, res) => {
     // res.sendFile('index.html', { root: __dirname });
+    console.log("Yayyy HITTT")
     res.json({ "foo": "bar" });
 });
 
