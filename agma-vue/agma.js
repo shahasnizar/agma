@@ -9,4 +9,9 @@ app.get('/', (req, res) => {
     res.sendFile('index.html', { root: __dirname });
 });
 
+app.get('/test', (req, res) => {
+    // res.sendFile('index.html', { root: __dirname });
+    res.json({ "foo": "bar" });
+});
+
 app.listen(port, () => console.log(`listening on port ${port}!`));
