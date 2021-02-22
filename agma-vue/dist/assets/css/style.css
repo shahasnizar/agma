@@ -1917,6 +1917,12 @@ img {
     padding: 649px 0 120px;
 }
 
+@media only screen and (max-width: 600px) {
+    .banner-section .content-box {
+        padding: 249px 0 120px;
+    }
+}
+
 .banner-section .content-box .inner {
     position: relative;
     width: 100%;
